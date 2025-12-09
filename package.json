@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "Short description of your project",
   "main": "src/index.js",
-}
-  // NO "type": "module" here
-}
+
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
