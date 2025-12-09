@@ -1,0 +1,23 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "description": "Short description of your project",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo \"No build step configured\"",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "yinkadamola-a11y",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
